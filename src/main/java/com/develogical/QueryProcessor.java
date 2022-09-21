@@ -11,6 +11,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("name")) {
             return "MyTeam";
         }
+        if (query.toLowerCase().contains("cmu")) {
+            return "CMU is a research based higher institute based in Pittsburgh, PA.";
+        }
         return "";
     }
 }
